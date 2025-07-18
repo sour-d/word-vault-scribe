@@ -9,6 +9,11 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: parseInt(process.env.PORT || "8080"),
   },
+  preview: {
+    host: "::",
+    port: parseInt(process.env.PORT || "8080"),
+    allowedHosts: ["words-w6mg.onrender.com"],
+  },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
   ),
