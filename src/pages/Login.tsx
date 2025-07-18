@@ -52,7 +52,7 @@ export const LoginPage = ({ onLogin }: LoginPageProps) => {
         <CardHeader className="text-center space-y-4">
           <div className="flex justify-center">
             <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center shadow-focus">
-              <BookOpen className="w-8 h-8 text-primary-foreground" />
+              <BookOpen color="black" size={64} className="text-primary-foreground" />
             </div>
           </div>
           <div>
